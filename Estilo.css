@@ -1,0 +1,42 @@
+html{
+background: url(video/flamante.png) no-repeat center center fixed;
+-webkit-background:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size: cover;
+
+}
+
+
+body{
+    margin: 0;
+    height: 100%;
+    weight:100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.header-content {
+  z-index: 2;
+  position:absolute;
+    top:95%;
+    left: 75%;
+
+
+}
+
+.btn {
+  background: #0013FC;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 50em;
+  text-shadow: 2px 2px 0 $subcolor;
+  &:before {
+    border-radius: 100em;
+    left: -1px;
+    top: -1px;
+}
